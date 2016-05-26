@@ -159,41 +159,6 @@ Public transport options:
 <li>Buses nearby: <a href="http://pda.5284.com.tw/MQS/businfo2.jsp?routename=12">12</a> <a href="http://pda.5284.com.tw/MQS/businfo2.jsp?routename=306">306</a></li>
 <li>YouBike stations: Zhongshan Metro 捷運中山站, Yuanhan 圓環站 (<a href="http://taipei.youbike.com.tw/en/f11.php">map of all YouBike stations</a>)</li>
 </ul>
-<p>
-  <script type="text/javascript" charset="utf-8">
-    (function(w,d,t,f){ w[f]=w[f]||function(c,k,n){s=w[f],k=s['k']=(s['k']||(k?('&k='+k):''));s['c']= c=(c instanceof Array)?c:[c];s['n']=n=n||0;L=d.createElement(t),e=d.getElementsByTagName(t)[0]; L.async=1;L.src='http://feed.aqicn.org/feed/'+(c[n].city)+'/'+(c[n].lang||'')+'/feed.v1.js?n='+n+k; e.parentNode.insertBefore(L,e); }; })( window,document,'script','_aqiFeed' );
-  </script>
-  <div id="locations-aqi">
-    <a href="https://aqicn.org/faq/2015-03-20/a-comparison-of-worldwide-air-quality-scales-part-1/">Air Quality Index</a> near the hackerspace:
-  </div>
-  <script type="text/javascript" charset="utf-8">
-    var cities = ["taiwan/wanhua", "taiwan/jhongshan", "taiwan/datong"];
-    var config = [];
-    var display = '<span title="%impact %date, %attribution">%cityname %aqi</span>';
-    setupWidget(config, cities, 'en', display);
-    setupWidget(config, cities, 'hk', display);
-    function setupWidget(config, cities, lang, display) {
-      cities.forEach(function(city, index, array) {
-	var id = city + '-aqi-container-' + lang;
-	var p = document.getElementById('locations-aqi');
-	var e = document.createElement('span');
-	e.id = id;
-	p.appendChild(e);
-	var s;
-	if (index < array.length - 1) {
-	  s = document.createElement('span');
-	  s.innerText = ' • ';
-	} else {
-	  s = document.createElement('span');
-	  s.innerText = ' / ';
-	}
-	p.appendChild(s);
-	config.push({ display: display, lang: lang, city: city, container: id });
-      });
-    }
-    _aqiFeed(config);
-  </script>
-</p>
 
 <div class="page-header" id="open">
   <h1>People in the Hackerspace now</h1>
