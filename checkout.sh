@@ -3,4 +3,4 @@ git pull
 node check.js out
 git diff
 git commit -am 'checkout'
-#git push
+git push
