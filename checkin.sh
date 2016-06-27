@@ -3,4 +3,4 @@ git pull
 node check.js in
 git diff
 git commit -am 'checkin'
-#git push
+git push
