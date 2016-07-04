@@ -1,7 +1,12 @@
 // checkin to, or checkout from, the hackerspace via its web site
 
-// TODO: global replace to avoid duplicate checkins, per-person checkin
-// TODO: specify time interval, update calendar, see https://developers.google.com/google-apps/calendar/v3/reference/events/quickAdd#examples
+// TODO: global replace to avoid duplicate checkins
+// TODO: update calendar,
+//   see https://developers.google.com/google-apps/calendar/v3/reference/events/quickAdd#examples
+//   quickAdd
+//   calendarId 96mpu88v2d3onqkp6ph9865p1c@group.calendar.google.com
+//   text Open (Kai) on July 4 8:00am-12:00pm
+//        Open (Kai) on July 4 2:00pm-6:00pm
 
 // the string that serves as an anchor in the file for adding text
 var openString = '<p>The space is open if someone is there.</p>';
