@@ -6,13 +6,24 @@
 // the string that serves as an anchor in the file for adding text
 var openString = '<p>The space is open if someone is there.</p>';
 
-// the string that is added to notify someone is in the space
-var checkinString =   '<p>Kai <a href="tel:00886931157391">09311157391</a> is at the space.</p>';
-var checkinStringRE = '<p>Kai <a href="tel:00886931157391">09311157391</a> is.*at the space.</p>';
 var filename = 'index.html';
 
 var check = process.argv[2];
-var action = process.argv[3];
+var person = process.argv[3] || 'someone';
+var action = process.argv[4] || '';
+if (action !== '') action = action + ' ';
+
+var personInfo = {
+  'Kai' : '<a href="tel:00886931157391">09311157391</a>'
+};
+
+if (person in personInfo) {
+  person = person + ' ' + personInfo[person];
+}
+
+// pattern for the line that is added to notify someone is in the space
+var checkinStringRE = '<p>' + person + ' is .*at the space.</p>';
+var checkinString;
 var checkin;
 
 if (check === 'in') {
@@ -25,24 +36,25 @@ if (check === 'in') {
 }
 
 fs = require('fs')
-fs.readFile(filename, 'utf8', function (err,data) {
+fs.readFile(filename, 'utf8', function (err, data) {
   if (err) {
     return console.log(err);
   }
+  var oldData = data;
   if (checkin) {
-    if (typeof action !== 'undefined' && action !== '') {
-      checkinString = checkinString.replace('is at the space', 'is ' + action + ' at the space');
-    }
+    checkinString = checkinStringRE.replace('.*', action);
     data = data.replace(openString, openString + "\n" + checkinString);
-    console.log('addded string ' + checkinString + ' to ' + filename);
   } else {
     var re = new RegExp("\n" + checkinStringRE);
     data = data.replace(re, '');
-    console.log('removed string ' + checkinStringRE + ' from ' + filename);
   }
-  fs.writeFile(filename, data, function (err) {
-    if (err) return console.log(err);
-    console.log('wrote file', filename);
-  });
+  var result = (data === oldData ? 'uncessfully tried to ' : '') + (checkin ? 'add' : 'remove');
+  console.log(result + ' line "' + (checkin ? checkinString : checkinStringRE) + '" in file "' + filename + '"');
+  if (data !== oldData) {
+    fs.writeFile(filename, data, function (err) {
+      if (err) return console.log(err);
+      console.log('wrote file', filename);
+    });
+  }
 });
 
