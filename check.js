@@ -2,7 +2,7 @@
 
 // TODO: global replace to avoid duplicate checkins
 // TODO: update calendar,
-//   see https://developers.google.com/google-apps/calendar/v3/reference/events/quickAdd#examples
+//   see https://developers.google.com/google-apps/calendar/v3/reference/events/quickAdd#try-it
 //   quickAdd
 //   calendarId 96mpu88v2d3onqkp6ph9865p1c@group.calendar.google.com
 //   text Open (Kai) on July 4 8:00am-12:00pm
