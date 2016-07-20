@@ -7,6 +7,8 @@
 //   calendarId 96mpu88v2d3onqkp6ph9865p1c@group.calendar.google.com
 //   text Open (Kai) on July 4 8:00am-12:00pm
 //        Open (Kai) on July 4 2:00pm-6:00pm
+//  Automatic in one URL
+//  https://www.googleapis.com/calendar/v3/calendars/96mpu88v2d3onqkp6ph9865p1c%40group.calendar.google.com/events/quickAdd?text=Open+(Kai)+on+July+5+10%3A30am-3%3A00pm&key={YOUR_API_KEY}
 
 // the string that serves as an anchor in the file for adding text
 var openString = '<p>The space is open if someone is there.</p>';
