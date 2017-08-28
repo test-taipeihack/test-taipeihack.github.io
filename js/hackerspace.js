@@ -20,6 +20,12 @@ var pagefill = function(data) {
     entries.forEach(textfill);
 };
 
+var updateWebcam = function() {
+  // Force refresh to latest webcam photo by modifying the URL with a unique number,
+  // the current timestamp, i.e. the number of milliseconds since 1 January 1970 
+  document.getElementById('webcam').src = document.getElementById('webcam').src.replace(/nocachehack=\d+/,'nocachehack='+Date.now())
+}
+
 $(document).ready(function() {
     
     // Load spreadsheet data
