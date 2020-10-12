@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://test-taipeihack.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://test-taipeihack.github.io/" rel="alternate" type="text/html" /><updated>2020-10-12T20:45:02+00:00</updated><id>https://test-taipeihack.github.io/feed.xml</id><title type="html">Taipei Hackerspace</title><subtitle>The Taipei Hackerspace is an open and public workshop to do any kind of DIY projects, from electronics to 3D printing, from urban farming to clothes hacking.</subtitle><author><name>Taipei Hackerspace</name></author><entry><title type="html">Fixing a headphone jack</title><link href="https://test-taipeihack.github.io/fixit/2013/07/16/fixing-a-headphone-jack.html" rel="alternate" type="text/html" title="Fixing a headphone jack" /><published>2013-07-16T15:54:00+00:00</published><updated>2013-07-16T15:54:00+00:00</updated><id>https://test-taipeihack.github.io/fixit/2013/07/16/fixing-a-headphone-jack</id><content type="html" xml:base="https://test-taipeihack.github.io/fixit/2013/07/16/fixing-a-headphone-jack.html">&lt;p&gt;Fixing a headphone that has a broken jack is easier than many people think. Recently I had a friend bringing his favorite, but old, headphone to the Hackerspace to get it working again. It is back in action, and now here’s a quick quide of the steps taken, so other people can do something similar as well.&lt;/p&gt;
+
+&lt;p&gt;So, if your headphone connector does not have sound in either ear, or the cable has to be moved around near the jack to have sound, the inner cabling is likely broken there. It is probably the most sensitive part of headphones, not really a surprise.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Snip it&lt;/em&gt;: snip the old connector off near the jack. Go to Guanghua computer market or another computer store, to get a new jack that could be assembled. Make sure that the connector part (the metal area, the part plugged in) is the same length (from tip to metal base), and has the same number of metal bands.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blogimg/headphone1.jpg&quot; alt=&quot;&quot; /&gt;  &lt;br /&gt;
+“Snip the old jack off, took the leap”&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Prepare the new jack&lt;/em&gt;: the connector should have some kind of outside cover, screw it off and thread the cable in it. If your cable has two lines attached to each other, separate them for 2-3cm length. Strip off the outside plastic cover with a wire stripper: I used AWG18 setting, or just “18”, be careful not to break off the little wire bundles inside.&lt;/p&gt;
+
+&lt;p&gt;In one of the lines you should see a green colored bundle and a copper colored one, that belongs to the left ear. The other wire should have a red bundle and a copper colored one, which belongs to the right ear. The color is coming from the enamel coating on the copper wire (even the copper colored one as well!), that is to insulate the wires from each other. This coating makes it a bit trickier to solder later, but not much harder.&lt;/p&gt;
+
+&lt;p&gt;The jack should have a couple of connectors exposed by the cover you’ve screwed off: the biggest one is the ground, that connects to the base of the plugged in area. The tip of the jack is the left ear, the second from the tip is the right. On the back, usually the middle electrode connects to the tip, the one further outside of the center is the second, and so on. If you are not sure which connects where, use a multimeter to make check the connections by touching the metal bands on the plug in area and the back.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blogimg/headphone2.jpg&quot; alt=&quot;&quot; /&gt;  &lt;br /&gt;
+“Preparing the new jack”&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Ready to solder&lt;/em&gt;: can use a “third hand” to hold the jack. Roll the two copper colored lines (the ground lines) together and thread them in the ground connection (the large electrode), where there should be a hole. Using the soldering iron at normal temperature, add a bit of solder and keep it there for a bit.&lt;/p&gt;
+
+&lt;p&gt;The trick is that the hot solder will burn off the enamel coating, so that the electrode can have electronic contact with the wire. You have to heat it enought that the coating is burned off, but not too long that the plastic parts of the jack melt. Maybe a few shorter touches with the soldering iron and let it cool in between? Experiment a bit carefully.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blogimg/headphone3.jpg&quot; alt=&quot;&quot; /&gt;  &lt;br /&gt;
+“Ready to solder: view from below, the ground wires thread in”&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Solder the signal lines&lt;/em&gt;: solder the green (left ear) wire to the electrode that connects to the center pin, and the red (right ear) wire to the one connecting to the one below the tip. Thread the line through the hole of the electrode, and do the enamel-burning trick. Make sure that the connector has enough time to cool down so you don’t end up melting it. Make sure you don’t leave connections between the electrodes.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blogimg/headphone4.jpg&quot; alt=&quot;&quot; /&gt;  &lt;br /&gt;
+“Solder the sides”&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Test the connections&lt;/em&gt;: if everything is done well, then the tip band of the jack and the ground connection should have a low resistivity reading, that you can check with a multimeter. The same goes with the band below the tip. Check them out, so you can verify that your soldering has worked.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blogimg/headphone5.jpg&quot; alt=&quot;&quot; /&gt;  &lt;br /&gt;
+“Testing the connections”&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Screw in the cover&lt;/em&gt;: now you have the jack cover that you thread in the wire in the beginning, now it’s time to scew it on - and hopfeully everything worked, if you missed that, you will have to start everything from the beginning. Later plug in / pull out the jack by that vcover to keep it safer and not break it again too easily.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blogimg/headphone6.jpg&quot; alt=&quot;&quot; /&gt;  &lt;br /&gt;
+“Screw in the cover”&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Testing, testing&lt;/em&gt;: check it out with some music, make sure that both ears work - if not the soldering didn’t work, go back to that step. Make sure that the left and right side is correct (you can use for example an &lt;a href=&quot;http://youtu.be/4bJ0dvAl98k&quot; title=&quot;Stereo Audio Test (Left, Right)&quot;&gt;audio testing video on Youtube&lt;/a&gt;) - if not, switch the two sides by unsoldering them and doing it again.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blogimg/headphone7.jpg&quot; alt=&quot;&quot; /&gt;  &lt;br /&gt;
+“Testing the earphones”&lt;/p&gt;
+
+&lt;p&gt;And now, you should have a functional headphone again, that sounds good as new. Enjoy!&lt;/p&gt;</content><author><name>Taipei Hackerspace</name></author><category term="fixit" /><summary type="html">Fixing a headphone that has a broken jack is easier than many people think. Recently I had a friend bringing his favorite, but old, headphone to the Hackerspace to get it working again. It is back in action, and now here’s a quick quide of the steps taken, so other people can do something similar as well.</summary></entry><entry><title type="html">Instructables build night</title><link href="https://test-taipeihack.github.io/events/2013/07/16/instructables-build-night.html" rel="alternate" type="text/html" title="Instructables build night" /><published>2013-07-16T14:49:00+00:00</published><updated>2013-07-16T14:49:00+00:00</updated><id>https://test-taipeihack.github.io/events/2013/07/16/instructables-build-night</id><content type="html" xml:base="https://test-taipeihack.github.io/events/2013/07/16/instructables-build-night.html">&lt;p&gt;Folloing a suggestion of a fan of the Hackerspace, we have signed up to the [August Build Night][instevent], organized by the DIY site [Instructables][inst] and the electronics store [Jameco][jameco].&lt;/p&gt;
+
+&lt;p&gt;The deal is that they send us a bag of electronics, mostly around the classic [555 timer][555], and we build a bunch of diffnerent things that we afterwards upload as an instructable, helping others to make some cool stuff too.&lt;/p&gt;
+
+&lt;p&gt;Now we have received the bag, and we are getting ready to host the build night.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blogimg/instructables.jpg&quot; alt=&quot;&quot; /&gt;  &lt;br /&gt;
+“The Instructables electronics pack”&lt;/p&gt;
+
+&lt;p&gt;The contents of the bag:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Standard Timer Single 8-Pin 555 Chip (10)&lt;/li&gt;
+  &lt;li&gt;Resistor Assortment, 540 pieces (1)&lt;/li&gt;
+  &lt;li&gt;Breadboard 3.25x2.125 (4)&lt;/li&gt;
+  &lt;li&gt;Battery Snap, 6 inch (4)&lt;/li&gt;
+  &lt;li&gt;Battery, Super Alkaline, 9V (4)&lt;/li&gt;
+  &lt;li&gt;Grab Bag of Electronics Components (1)&lt;/li&gt;
+  &lt;li&gt;LED Grab Bag - assorted colors and shapes (2)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;august-17-saturday-afternoon-2pm&quot;&gt;August 17, Saturday afternoon 2pm&lt;/h4&gt;
+
+&lt;div class=&quot;vevent&quot;&gt;
+ &lt;p&gt;&lt;strong class=&quot;summary&quot;&gt;Build Night with Instructables &amp;amp; Jameco&lt;/strong&gt;&lt;br /&gt;
+ &lt;span class=&quot;description&quot;&gt;Build some cool circuits and share it with the others. RSVP on &lt;a href=&quot;https://www.facebook.com/events/521139424624885/&quot;&gt;Facebook&lt;/a&gt; or &lt;a href=&quot;https://plus.google.com/events/ce9p3h7jcpsilqn1ni4s1u2pkvo&quot;&gt;Google+&lt;/a&gt;.&lt;/span&gt;&lt;br /&gt;
+ When:
+   &lt;span class=&quot;dtstart&quot;&gt;
+      2013 August 17, Saturday, 2:00PM&lt;span class=&quot;value-title&quot; title=&quot;2013-08-17T14:00+08:00&quot; /&gt;
+   &lt;/span&gt;-
+   &lt;span class=&quot;dtend&quot;&gt;
+      7:00PM&lt;span class=&quot;value-title&quot; title=&quot;2013-08-17T19:00+08:00&quot; /&gt;
+   &lt;/span&gt;&lt;br /&gt;
+  Where:
+   &lt;span class=&quot;location vcard&quot;&gt;
+      &lt;span class=&quot;fn org&quot;&gt;&lt;a href=&quot;https://www.facebook.com/TaipeiHackerspace&quot;&gt;Taipei Hackerspace&lt;/a&gt;,
+      &lt;span class=&quot;adr&quot;&gt;
+         &lt;a href=&quot;https://plus.google.com/100224637045566967774/about&quot;&gt;&lt;span class=&quot;street-address&quot;&gt;太原路133巷26號4樓&lt;/span&gt;&lt;/a&gt;,
+         &lt;span class=&quot;locality&quot;&gt;Taipei&lt;/span&gt;,
+         &lt;span class=&quot;country&quot;&gt;Taiwan&lt;/span&gt;
+      &lt;/span&gt;
+      &lt;span class=&quot;geo&quot;&gt;
+         &lt;span class=&quot;latitude&quot;&gt;
+            &lt;span class=&quot;value-title&quot; title=&quot;25.052993&quot; /&gt;
+         &lt;/span&gt;
+         &lt;span class=&quot;longitude&quot;&gt;
+            &lt;span class=&quot;value-title&quot; title=&quot;121.516981&quot; /&gt;
+         &lt;/span&gt;
+      &lt;/span&gt;
+   &lt;/span&gt;
+&amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+
+Feel free to bring friends, snacks, drinks with you, and have a good time! No entry fee, everyone's welcome.
+
+[555]: http://en.wikipedia.org/wiki/555_timer_IC &quot;555 timer on Wikipedia&quot;
+[inst]: http://instructables.com &quot;Instructables homepage&quot;
+[instevent]: http://www.instructables.com/community/August-2013-Build-Night-with-Jameco/ &quot;August 2013 Build Night with Jameco&quot;
+[jameco]: http://www.jameco.com/ &quot;Jameco homepage&quot;
+[fbevent]: https://www.facebook.com/events/521139424624885/ &quot;Event on Facebook&quot;
+[gpevent]: https://plus.google.com/events/ce9p3h7jcpsilqn1ni4s1u2pkvo &quot;Event on Google+&quot;
+&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</content><author><name>Taipei Hackerspace</name></author><category term="events" /><summary type="html">Folloing a suggestion of a fan of the Hackerspace, we have signed up to the August Build Night, organized by the DIY site Instructables and the electronics store Jameco.</summary></entry><entry><title type="html">Full steam ahead</title><link href="https://test-taipeihack.github.io/2013/05/11/full-steam-ahead.html" rel="alternate" type="text/html" title="Full steam ahead" /><published>2013-05-11T12:15:00+00:00</published><updated>2013-05-11T12:15:00+00:00</updated><id>https://test-taipeihack.github.io/2013/05/11/full-steam-ahead</id><content type="html" xml:base="https://test-taipeihack.github.io/2013/05/11/full-steam-ahead.html">&lt;p&gt;It’s been a while since this blog was written, and there are a lot of
+developments in the life of the Taipei Hackerspace. Finally we are a
+real “space”, having rented out a nice little 37 ping (~130 sq. m)
+appartment/office space, where we get access to a same sized roof
+as well.&lt;/p&gt;
+
+&lt;p&gt;You can see how it looked when we got it on &lt;a href=&quot;https://plus.google.com/photos/100085911445404984901/albums/5856272247456842737&quot; title=&quot;The rooms are still empty&quot;&gt;this album&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Since then the place have seen a lot of donated furniture and tools,
+activities, people start to work on their projects. We had our first
+Open House, which got more people in, even if the place is open all
+other times as well.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blogimg/openhouse500.jpg&quot; alt=&quot;&quot; /&gt;  &lt;br /&gt;
+“Our first Open House”&lt;/p&gt;
+
+&lt;p&gt;The address is 太原路133巷26號4樓 / Taiyuan Rd, Lane 133, No 26, 4th Floor,
+or here’s it on the &lt;a href=&quot;https://plus.google.com/100224637045566967774/about&quot; title=&quot;Google Maps Link&quot;&gt;Google Maps&lt;/a&gt;. Can ring +886-2-2550-7630 any
+time to see if anyone’s there, and come by if there is.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blogimg/Hackerspace_walk.png&quot; alt=&quot;&quot; /&gt;   &lt;br /&gt;
+“Walking direction from MRT ZhongShan Station”&lt;/p&gt;
+
+&lt;p&gt;There are quite a few interesting projects goig on already:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Wireless Facebook like count display&lt;/li&gt;
+  &lt;li&gt;Sous vide machine&lt;/li&gt;
+  &lt;li&gt;Big bunch of LED works&lt;/li&gt;
+  &lt;li&gt;Aquaponics&lt;/li&gt;
+  &lt;li&gt;Robotics&lt;/li&gt;
+  &lt;li&gt;Getting traffic and song list data from FM with Software Defined Radios (SDR)&lt;/li&gt;
+  &lt;li&gt;DIY Radio telescope, and lab equipment&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can find more information on &lt;a href=&quot;http://tpehack.no-ip.biz&quot; title=&quot;(temporary) website&quot;&gt;website&lt;/a&gt;, the &lt;a href=&quot;https://www.facebook.com/TaipeiHackerspace&quot; title=&quot;Facebook page&quot;&gt;Facebook&lt;/a&gt;
+and &lt;a href=&quot;https://plus.google.com/100085911445404984901&quot; title=&quot;Google+ page&quot;&gt;Google+&lt;/a&gt; pages, and the &lt;a href=&quot;https://groups.google.com/forum/?fromgroups#!forum/taipeihackerspace&quot; title=&quot;Mailing list&quot;&gt;mailing list&lt;/a&gt;. The code written
+for the projects will likely be in the &lt;a href=&quot;https://github.com/taipeihackerspace&quot; title=&quot;Github organization&quot;&gt;Github repo&lt;/a&gt; for the ‘space.&lt;/p&gt;
+
+&lt;p&gt;Also thinking about doing a few training courses in programming, electronics,
+mechanical desig, photography, or whatever knowledge people would like to contribute.&lt;/p&gt;
+
+&lt;p&gt;So, what would &lt;strong&gt;you&lt;/strong&gt; like to do?&lt;/p&gt;</content><author><name>Gergely Imreh</name></author><summary type="html">It’s been a while since this blog was written, and there are a lot of developments in the life of the Taipei Hackerspace. Finally we are a real “space”, having rented out a nice little 37 ping (~130 sq. m) appartment/office space, where we get access to a same sized roof as well.</summary></entry><entry><title type="html">Taiwan Maker Gettogether</title><link href="https://test-taipeihack.github.io/2013/02/02/taiwan-maker-gettogether.html" rel="alternate" type="text/html" title="Taiwan Maker Gettogether" /><published>2013-02-02T07:33:00+00:00</published><updated>2013-02-02T07:33:00+00:00</updated><id>https://test-taipeihack.github.io/2013/02/02/taiwan-maker-gettogether</id><content type="html" xml:base="https://test-taipeihack.github.io/2013/02/02/taiwan-maker-gettogether.html">&lt;p&gt;&lt;strong&gt;Update 2&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The photos from the event can be seen &lt;a href=&quot;https://plus.google.com/photos/100085911445404984901/albums/5840341447077969233&quot;&gt;clicking here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blogimg/makergettogether.jpg&quot; alt=&quot;&quot; /&gt;   &lt;br /&gt;
+“Hard at work with microcontrollers and other goodies”&lt;/p&gt;
+
+&lt;p&gt;or you can see the whole timelapse:&lt;/p&gt;
+
+&lt;iframe width=&quot;480&quot; height=&quot;360&quot; src=&quot;http://www.youtube.com/embed/veyJKOLZW4c&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;The live hangout starts soon (10am Taipei time (UTC+8) &lt;a href=&quot;http://www.timeanddate.com/worldclock/fixedtime.html?msg=Maker+Gettogether&amp;amp;iso=20130202T10&amp;amp;p1=241&amp;amp;ah=6&quot;&gt;click to see it in your time zone&lt;/a&gt;):&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/0iOLxUuQd10&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;or watch directly on &lt;a href=&quot;http://www.youtube.com/user/tomhaynesnet?v=0iOLxUuQd10&quot;&gt;Youtube&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can also join the hangout for different learning stations on Google+ hangout. Click on the names to join the hangouts!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://plus.google.com/hangouts/_/8a5159c6d89147647540269294f3fa2f7f57d9b6&quot;&gt;Table 1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://plus.google.com/hangouts/_/a498b26e350332de21b82d0feaa75d4cb8cbbeb5&quot;&gt;Table 2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://plus.google.com/hangouts/_/339eeef9e61d1242c4b48d68e1de804554a977b6&quot;&gt;Table 3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;(These will be live for the whole day, starting to do things around 12 noon Taiwan time)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;First Hackerspace event - (and accidentally Groundhog Day too)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The purpose of this event is to get people interested in joining the first ever hackerspace in Taipei. We will be gauging interest in the hackerspace to help us select a large enough space that we can afford to open. This will also be a chance for the organizers to meet people that can help us find the perfect space. Our goal is to have the space ready for a Hack the Hackerspace event by the time Maker Faire Taiwan arrives in May.&lt;/p&gt;
+
+&lt;p&gt;#Schedule&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;10:00am Doors open&lt;/li&gt;
+  &lt;li&gt;10:30am - 10:50am Speaker: Mitch Altman - The Philosophy of Hackerspaces&lt;/li&gt;
+  &lt;li&gt;10:50am - 11:10am Speaker: Ben Heck - 3D Printing and Hardware Modding&lt;/li&gt;
+  &lt;li&gt;11:10am - 11:30am Speaker: Eric Stein - Creativity in the Hackerspaces&lt;/li&gt;
+  &lt;li&gt;11:30am - 12:00pm Speaker: Open floor - Hackerspace members answer questions&lt;/li&gt;
+  &lt;li&gt;12:00pm - 16:00pm Learning stations open&lt;/li&gt;
+  &lt;li&gt;16:00pm Doors close&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;format&quot;&gt;Format&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Google+ Hangouts&lt;/strong&gt;
+The will be a main G+ Hangout that hackerspaces from around the world can join as a group. This will be displayed on the main screens at the event as well as smaller screen throughout the event. Local people will be able to interact with the members of the hackerspaces. This hangout will also be broadcast On Air. Will post the links here when the hangouts are set up&lt;/p&gt;
+
+&lt;p&gt;** Learning Stations**
+Each of the 4 learning stations will have a public G+ Hangout so anyone can join in to learn or teach. Each station will cover one topic that can be completed in about 30 minutes. Each station will have room for 4-6 local participants. The topics will be “Learning to Solder”, “Getting started with Arduino”, “Clothes Hacking”, and an open topic for the last station.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blogimg/soldering_kits500.jpg&quot; alt=&quot;&quot; /&gt;  &lt;br /&gt;
+“40 soldering kits waiting to be assembled by someone tomorrow. 15 different ones to try. There are even some SMD kits!”&lt;/p&gt;
+
+&lt;p&gt;#Introductions&lt;/p&gt;
+
+&lt;h2 id=&quot;the-speakers&quot;&gt;The Speakers&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Mitch Altman&lt;/strong&gt;
+http://en.wikipedia.org/wiki/Mitch_Altman
+mitch@cornfieldelectronics.com (PUBLIC)
+A co-founder of Noisebridge, a hackerspace in San Francisco, and a pioneer of Virtual reality. Mitch has been featured many time is Make: and many other magazines.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Benjamin Heckendorn&lt;/strong&gt;
+http://en.wikipedia.org/wiki/Benjamin_Heckendorn
+benjamin.heckendorn@gmail.com (PUBLIC)
+Console modder, internet celebrity, pinball enthusiast and designer, host of the Ben Heck Show. There are so many publications about Ben, I can’t even begin to count (Although Google say 3.9M hits!)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Eric Stein&lt;/strong&gt;
+Programmer extraordinaire and insatiable hacker. Eric discovered the hackerspace PumpingStationOne when he was transplanted to Chicago. He immediately took an active role in the community and is now president of the space.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blogimg/learn_soldering_tools500.jpg&quot; alt=&quot;&quot; /&gt;   &lt;br /&gt;
+“Tools enough for 5 people at a time”&lt;/p&gt;
+
+&lt;h2 id=&quot;the-organizers&quot;&gt;The Organizers&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Gergely (Greg) Imreh&lt;/strong&gt;
+imrehg@gmail.com
+Ex-pat living in Taiwan and founder of Taipei Hackerspace. He has been driving the online presence of the group.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tom Haynes&lt;/strong&gt;
+TaipeiHackerspace@tomhaynes.net (PUBLIC)
+Recently relocated to Taipei from San Francisco. After discovering Gergely through hackerspaces.org, they joined forces to found the physical space for Taipei Hackerspace.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-media&quot;&gt;The Media&lt;/h2&gt;
+&lt;p&gt;Brian Song
+Make: Magazine Taiwan&lt;/p&gt;
+
+&lt;p&gt;Amber Yan
+Editor with Make: Magazine Taiwan&lt;/p&gt;
+
+&lt;p&gt;Caroline Hsu
+Head of Google Communications, Taiwan&lt;/p&gt;
+
+&lt;p&gt;Lan Chang
+Google Public Affairs Senior Associate, Taiwan and Hong Kong&lt;/p&gt;
+
+&lt;h2 id=&quot;location&quot;&gt;Location&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://plus.google.com/109550428491043834202&quot;&gt;Google Taiwan office, Taipei 101, Floor 73&lt;/a&gt;. Meeting at Taipei 101 Ground Floor.&lt;/p&gt;
+
+&lt;p&gt;The event page on &lt;a href=&quot;https://plus.google.com/events/cr10uei635afp6khq9qis1k0438&quot;&gt;Google+&lt;/a&gt; and on &lt;a href=&quot;https://www.facebook.com/events/270631236396982/&quot;&gt;Facebook&lt;/a&gt;.&lt;/p&gt;</content><author><name>Taipei Hackerspace</name></author><summary type="html">Update 2</summary></entry><entry><title type="html">Radiation counters</title><link href="https://test-taipeihack.github.io/hardware/2013/01/04/radiation-counters.html" rel="alternate" type="text/html" title="Radiation counters" /><published>2013-01-04T22:51:00+00:00</published><updated>2013-01-04T22:51:00+00:00</updated><id>https://test-taipeihack.github.io/hardware/2013/01/04/radiation-counters</id><content type="html" xml:base="https://test-taipeihack.github.io/hardware/2013/01/04/radiation-counters.html">&lt;p&gt;Recently I was thinking what kind of projects would fit the local environment the best, what technology and science related topics can be on people’s mind in Taiwan. One that keeps popping up is the issue of nuclear power and its dangers.&lt;/p&gt;
+
+&lt;p&gt;I’m a physicist, and the professors at my &lt;a href=&quot;http://www.unideb.hu/&quot; title=&quot;University of Debrecen, Hungary&quot;&gt;university&lt;/a&gt; had a relatively close contact with &lt;a href=&quot;http://paksnuclearpowerplant.com/&quot; title=&quot;Paks Nuclear Power Plant&quot;&gt;Hungary’s single nuclear power plant&lt;/a&gt;, and we had a good training about nuclear energy and engineering. Because of this it annoyed me to no end to see the “No nukes” slogens everywhere in Taiwan for a long time, mostly because I felt people misunderstood things - let’s start with that “nukes” are “nuclear weapons”, not nuclear power… The more I encountered the protests, and the more I thought about it, there’s a point, though. The biggest practical reason for people to oppose that technology is because its implementation here is bad: bad choice of location, bad management, bad practices. I don’t know whether it is really so, but those are at least sound things to discuss.&lt;/p&gt;
+
+&lt;p&gt;After the &lt;a href=&quot;http://en.wikipedia.org/wiki/Fukushima_Daiichi_nuclear_disaster&quot; title=&quot;Fukushima on Wikipedia&quot;&gt;Fukushima disaster&lt;/a&gt;, I was in touch with a bit with the &lt;a href=&quot;http://tokyohackerspace.org/&quot;&gt;Tokyo Hackerspace&lt;/a&gt; and &lt;a href=&quot;http://freaklabs.org/&quot;&gt;Freaklabs&lt;/a&gt; acting on their behalves. We sent some supplies there, and followed their project of making a lot of portable &lt;a href=&quot;http://en.wikipedia.org/wiki/Geiger_counter&quot; title=&quot;Geiger counter on Wikipedia&quot;&gt;Geiger radiation counters&lt;/a&gt;. It was very impressive, and I do belive as well, that everything that makes people be better informed is a good ideas. It was covered in the &lt;a href=&quot;http://blog.makezine.com/2011/08/09/tokyo-hackerspaces-geiger-counter-project-continues-to-evolve/&quot;&gt;Make: blog&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;While searching for more about that project, I found &lt;a href=&quot;http://blog.safecast.org/&quot;&gt;Safecast&lt;/a&gt;, “a global sensor network for collecting and sharing radiation measurements to empower people with data about their environments.” Really think that Taiwan could use something similar.&lt;/p&gt;
+
+&lt;p&gt;So, how difficult it is to build a Geiger counter? Haven’t done one yet myself, from the tutorials on the net it looks relatively straightforward once one has the actual detector unit, while there is still space for innovation if someone wants to make more efficient, cheaper, or scrappy units.&lt;/p&gt;
+
+&lt;h3 id=&quot;bgeigie-nano&quot;&gt;bGeigie nano&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://plus.google.com/107771797789108794103/posts/ZZaxz8exNQq&quot;&gt;bGeigie nano&lt;/a&gt;, really cool looking one on Google+, that kickstarted my recent thinking. Not much linked there, should find out more about this.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blogimg/bGeigi500o.jpg&quot; alt=&quot;&quot; /&gt; &lt;br /&gt;
+“bGeigie nano by Pieter Franken”&lt;/p&gt;
+
+&lt;h3 id=&quot;diygeigercounter&quot;&gt;DIYGeigerCounter&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://sites.google.com/site/diygeigercounter/&quot;&gt;DIYGeigerCounter&lt;/a&gt; is an entire kit with information, layout, parts and all&lt;/p&gt;
+
+&lt;p&gt;![](/blogimg/diygeigercounter500o.jpg]  &lt;br /&gt;
+“the DIY kit”&lt;/p&gt;
+
+&lt;h3 id=&quot;make-blog-coverage-of-diy-geiger-counters&quot;&gt;Make Blog coverage of DIY Geiger Counters&lt;/h3&gt;
+
+&lt;p&gt;There’s a big collection of &lt;a href=&quot;http://blog.makezine.com/2011/04/14/diy-geiger-counters-take-center-stage/&quot;&gt;DIY counters&lt;/a&gt; in another post on Make:. The whole spectrum is represented from prototipy to professional,&lt;/p&gt;
+
+&lt;p&gt;![](/blogimg/strawberrylinux500o.jpg]  &lt;br /&gt;
+“Strawberry Linux counter”&lt;/p&gt;
+
+&lt;h3 id=&quot;instructables&quot;&gt;Instructables&lt;/h3&gt;
+
+&lt;p&gt;The &lt;a href=&quot;http://www.adafruit.com/blog/2011/05/19/netduino-tweeting-geiger-counter-adafruit-instructables-make-it-tweet-challenge/&quot;&gt;Tweeting Geiger Counter&lt;/a&gt; was an entry to Adafruit+Instructables Make It Tweet Challenge. Those are two companies that should be very familiar to every maker anyways, I take a lot of inspiration from them.&lt;/p&gt;
+
+&lt;p&gt;Instructables have a few more related projects. &lt;a href=&quot;http://www.instructables.com/id/Build-a-Pocket-Ionizing-Radiation-Detector-PIRD/&quot;&gt;Build a Pocket Ionizing Radiation Detector (PIRD)&lt;/a&gt; can be very handy to take it with you.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blogimg/pocketion500o.jpg&quot; alt=&quot;&quot; /&gt;   &lt;br /&gt;
+“Pocket Ionizing Radiation Detector”&lt;/p&gt;
+
+&lt;p&gt;The signal from the counter can also be used for other purposes, like interesting ways to decorate your environment like &lt;a href=&quot;http://www.instructables.com/id/Geiger-counter-triggered-LED-decorations/&quot;&gt;this one&lt;/a&gt; or &lt;a href=&quot;http://www.instructables.com/id/Star-Jar-Geiger-counter-triggered-LED-decoration-/&quot; title=&quot;Star Jar Geiger counter triggered LED decoration (2012 remix)&quot;&gt;this one&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blogimg/geigerdecor500o.jpg&quot; alt=&quot;&quot; /&gt;  &lt;br /&gt;
+“Geiger counter triggered LED decorations”&lt;/p&gt;
+
+&lt;p&gt;Also, &lt;a href=&quot;http://www.instructables.com/id/Nixie-Tube-Geiger-Counter/&quot; title=&quot;Nixie Tube Geiger Counter&quot;&gt;Nixie-tubes&lt;/a&gt; just make everything look cooler.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blogimg/nixiegeiger500o.jpg&quot; alt=&quot;&quot; /&gt;  &lt;br /&gt;
+“Nixe tube Geiger counter”&lt;/p&gt;
+
+&lt;h2 id=&quot;build-one&quot;&gt;Build one&lt;/h2&gt;
+
+&lt;p&gt;I’m pretty sure that there are much more versions than a quick research like this could bring up. On the other hand, the basics are pretty much the same for all of them, so the next step should be indeed to make one. Let’s see if there’s anything worrying in the air (hope not, but better to know:)&lt;/p&gt;
+
+&lt;p&gt;This would probably make a very good workshop as well - a bit of physics training, a bit of soldering, networking, data monitoring. Probably the biggest issue would be getting the parts, need to look into sourcing them, and not the eBay-type one-by-one, but somewhere where we can have a few.&lt;/p&gt;</content><author><name>Gergely Imreh</name></author><category term="hardware" /><summary type="html">Recently I was thinking what kind of projects would fit the local environment the best, what technology and science related topics can be on people’s mind in Taiwan. One that keeps popping up is the issue of nuclear power and its dangers.</summary></entry><entry><title type="html">Kicking off the new year</title><link href="https://test-taipeihack.github.io/2013/01/03/kicking-off-the-new-year.html" rel="alternate" type="text/html" title="Kicking off the new year" /><published>2013-01-03T10:29:00+00:00</published><updated>2013-01-03T10:29:00+00:00</updated><id>https://test-taipeihack.github.io/2013/01/03/kicking-off-the-new-year</id><content type="html" xml:base="https://test-taipeihack.github.io/2013/01/03/kicking-off-the-new-year.html">&lt;p&gt;The Taipei Hackerspace project was in the back of my mind for years now, not really going anywhere, but I kept talking about it with people. From their reactions, and from things I heard discussed by others, there’s indeed a need and space for it, if it gets off the ground. Let’s make 2013 the year when that will happen.&lt;/p&gt;
+
+&lt;p&gt;In the last few monthts I have already got a log of interesting contact from people around the world - travellers coming to Taiwan, people moving here, and looking for a place to create. I can’t think of a better time doing that than now, and Taiwan has its unique properties that would make it a very hacker-friendly country.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blogimg/bGeigi500o.jpg&quot; alt=&quot;&quot; /&gt;  &lt;br /&gt;
+“Preliminary Taipei Hackerspace Logo”&lt;/p&gt;
+
+&lt;p&gt;In the meantime, I just set up this blog to put a bit more pressure on me to get things going. Got together a silly logo already (with &lt;a href=&quot;/blogimg/hackerspace1opaque.svg&quot; title=&quot;Link to SVG version&quot;&gt;SVG source&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Also, there are some related projects that I created or took part, like &lt;a href=&quot;http://openhack.github.com/taipei&quot; title=&quot;OpenHack Taipei page&quot;&gt;OpenHack Taipei&lt;/a&gt; (the next event is coming up on 2013 Jan 12, Saturday evening!), or &lt;a href=&quot;https://www.facebook.com/groups/geekdinnertpe/&quot; title=&quot;Facebook group&quot;&gt;Geek Dinner&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;So far things were managed on the &lt;a href=&quot;https://www.facebook.com/TaipeiHackerspace&quot; title=&quot;Facebook page&quot;&gt;Facebook&lt;/a&gt; and &lt;a href=&quot;https://plus.google.com/b/100085911445404984901/100085911445404984901/&quot; title=&quot;Google+ page&quot;&gt;Google+&lt;/a&gt; pages, I guess I will try to move things over here to the blog more, writing articles, calls for action, so forth. Those pages will remain, since most people are more exposed to FB and G+, and there are some great communities there too.&lt;/p&gt;
+
+&lt;p&gt;If you have any comments, just leave a note here.&lt;/p&gt;
+
+&lt;p&gt;Cheers,
+&lt;a href=&quot;http://gergely.imreh.net&quot;&gt;Greg&lt;/a&gt;&lt;/p&gt;</content><author><name>Taipei Hackerspace</name></author><summary type="html">The Taipei Hackerspace project was in the back of my mind for years now, not really going anywhere, but I kept talking about it with people. From their reactions, and from things I heard discussed by others, there’s indeed a need and space for it, if it gets off the ground. Let’s make 2013 the year when that will happen.</summary></entry></feed>
