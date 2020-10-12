@@ -1,10 +1,11 @@
 ---
-layout: page
+layout: no-page
 title: 中文
 tagline: 
 permalink: /hs-cn.html
 ref: hs-cn
 order: 2
+show_downloads: "false"
 ---
 
 # 相關連結

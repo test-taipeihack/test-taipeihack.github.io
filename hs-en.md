@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: no-page
 title: EN
 tagline: 
 permalink: /hs-en.html
