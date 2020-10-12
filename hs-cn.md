@@ -25,6 +25,7 @@ show_downloads: "false"
 
 * [動手做時代！台灣也有 Makerspace — 專訪 Taipei Hackerspace 與綠色工作坊](http://yowureport.com/?p=6498)
 * [Association announcement in 都會時報 (2014/08/01)](/AssociationAnnouncement.jpg)
+* [給 MAKER 們的「隨身」軟硬體版本管理系統 —— FABDOC](https://vmaker.tw/archives/20026)
 
 # 支持者
 
