@@ -80,20 +80,3 @@ Hackerspace webcam by [Yusuke](https://docs.google.com/presentation/d/1kMt_gAla
         src="https://drive.google.com/uc?id=1p0WrgwYHmaaX08RWhEvy9Ts4naq7Su4R&nocachehack=123"
         alt="Taipei Hackerspace Webcam">
 </a>
-
-# Calendar
-
-<iframe src="https://www.google.com/calendar/embed?src=96mpu88v2d3onqkp6ph9865p1c%40group.calendar.google.com&amp;ctz=Asia/Taipei&amp;mode=month" style="border:0; height:600px; width:100%; max-width:800px"></iframe>
-
-# Opening Request 
-
-<p class="centered">
-    <iframe
-        src="https://docs.google.com/forms/d/1jtWaGFOlE2aR8t4VJ8I-fEht-0S_ycEvgfa4azxeow0/viewform?embedded=true"
-        style="height:600px; width:100%; max-width:800px" frameborder="0"
-        marginheight="0" marginwidth="0">Loading...</iframe>
-</p>
-
-# Web IRC / #taipeihack
-
-<iframe src="https://webchat.freenode.net?randomnick=1&amp;channels=%23taipeihack&amp;prompt=1&amp;uio=OT10cnVlde" style="height:600px; width:100%; max-width:800px"></iframe>
