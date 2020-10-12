@@ -29,4 +29,4 @@ plugins:
 target-blank:
     rel: nofollow
 
-header_page_refs: ['hs-en','hs-cn']
+header_page_refs: ['wiki','hs-en','hs-cn']
