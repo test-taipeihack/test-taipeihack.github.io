@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Taipei Hackerspace General Assembly 2017
+title: Constitution
 tagline: 
 permalink: /general_assembly_2017.html
 ref: general_assembly_2017

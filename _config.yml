@@ -28,4 +28,4 @@ plugins:
 target-blank:
     rel: nofollow
 
-header_page_refs: ['wiki','hs-en','hs-cn']
+header_page_refs: ['general_assembly_2017','logo','wiki','hs-en','hs-cn']
