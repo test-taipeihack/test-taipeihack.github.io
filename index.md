@@ -8,4 +8,4 @@
 layout: home
 ---
 
-
+The Taipei Hackerspace is an open and public workshop to do any kind of DIY projects, from electronics to 3D printing, from urban farming to clothes hacking.
