@@ -20,13 +20,15 @@ activities, people start to work on their projects. We had our first
 Open House, which got more people in, even if the place is open all
 other times as well.
 
-![](/blogimg/openhouse500.jpg) 500 375 "Our first Open House"
+![](/blogimg/openhouse500.jpg)    
+"Our first Open House"
 
 The address is 太原路133巷26號4樓 / Taiyuan Rd, Lane 133, No 26, 4th Floor,
 or here's it on the [Google Maps][gmaps]. Can ring +886-2-2550-7630 any
 time to see if anyone's there, and come by if there is.
 
-![](/blogimg/Hackerspace_walk.png) 634 391 "Walking direction from MRT ZhongShan Station"
+![](/blogimg/Hackerspace_walk.png)     
+"Walking direction from MRT ZhongShan Station"
 
 There are quite a few interesting projects goig on already:
 

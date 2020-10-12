@@ -6,6 +6,7 @@ ref: contact
 order: 1
 ---
 
-Jekyll is a great tool to create static sites but with static site, there's no backend to send your data to: that is why you need a third part service.
+* English: 4F, No. 26, Lane 133, Taiyuan Rd.Taipei 103 Taiwan
+* Chinese:  103台北市太原路133巷26號4樓
 
-[Go to the Home Page]({{ '/' | absolute_url }})
+Our phone number is +886-2-2550-7630.

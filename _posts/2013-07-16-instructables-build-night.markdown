@@ -12,7 +12,8 @@ The deal is that they send us a bag of electronics, mostly around the classic [5
 
 Now we have received the bag, and we are getting ready to host the build night.
 
-![](/blogimg/instructables.jpg) 500 375 "The Instructables electronics pack"
+![](/blogimg/instructables.jpg)    
+"The Instructables electronics pack"
 
 The contents of the bag:
 

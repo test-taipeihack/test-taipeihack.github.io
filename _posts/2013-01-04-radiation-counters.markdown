@@ -20,7 +20,8 @@ So, how difficult it is to build a Geiger counter? Haven't done one yet myself, 
 
 [bGeigie nano][bgeigie], really cool looking one on Google+, that kickstarted my recent thinking. Not much linked there, should find out more about this.
 
-![](/blogimg/bGeigi500o.jpg)"bGeigie nano by Pieter Franken"
+![](/blogimg/bGeigi500o.jpg)   
+"bGeigie nano by Pieter Franken"
 
 
 
@@ -28,13 +29,15 @@ So, how difficult it is to build a Geiger counter? Haven't done one yet myself, 
 
 [DIYGeigerCounter][diy] is an entire kit with information, layout, parts and all
 
-![](/blogimg/diygeigercounter500o.jpg] 500 301 "the DIY kit" 
+![](/blogimg/diygeigercounter500o.jpg]    
+"the DIY kit" 
 
 ### Make Blog coverage of DIY Geiger Counters
 
 There's a big collection of [DIY counters][makediy] in another post on Make:. The whole spectrum is represented from prototipy to professional, 
 
-![](/blogimg/strawberrylinux500o.jpg]  "Strawberry Linux counter" 
+![](/blogimg/strawberrylinux500o.jpg]    
+"Strawberry Linux counter" 
 
 ### Instructables
 
@@ -42,15 +45,18 @@ The [Tweeting Geiger Counter][tweeting] was an entry to Adafruit+Instructables M
 
 Instructables have a few more related projects. [Build a Pocket Ionizing Radiation Detector (PIRD)][pocketion] can be very handy to take it with you.
 
-![](/blogimg/pocketion500o.jpg) "Pocket Ionizing Radiation Detector" 
+![](/blogimg/pocketion500o.jpg)     
+"Pocket Ionizing Radiation Detector" 
 
 The signal from the counter can also be used for other purposes, like interesting ways to decorate your environment like [this one][decoration1] or [this one][decoration2].
 
-![](/blogimg/geigerdecor500o.jpg) 500 375 "Geiger counter triggered LED decorations"
+![](/blogimg/geigerdecor500o.jpg)    
+"Geiger counter triggered LED decorations"
 
 Also, [Nixie-tubes][nixie] just make everything look cooler.
 
-![](/blogimg/nixiegeiger500o.jpg) 500 375 "Nixe tube Geiger counter"
+![](/blogimg/nixiegeiger500o.jpg)    
+"Nixe tube Geiger counter"
 
 ## Build one
 

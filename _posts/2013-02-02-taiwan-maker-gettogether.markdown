@@ -10,7 +10,8 @@ categories:
 
 The photos from the event can be seen [clicking here](https://plus.google.com/photos/100085911445404984901/albums/5840341447077969233).
 
-![](/blogimg/makergettogether.jpg) 500 333 "Hard at work with microcontrollers and other goodies"
+![](/blogimg/makergettogether.jpg)     
+"Hard at work with microcontrollers and other goodies"
 
 or you can see the whole timelapse:
 
@@ -55,7 +56,8 @@ The will be a main G+ Hangout that hackerspaces from around the world can join a
 ** Learning Stations**
 Each of the 4 learning stations will have a public G+ Hangout so anyone can join in to learn or teach. Each station will cover one topic that can be completed in about 30 minutes. Each station will have room for 4-6 local participants. The topics will be "Learning to Solder", "Getting started with Arduino", "Clothes Hacking", and an open topic for the last station.
 
-![](/blogimg/soldering_kits500.jpg) 500 375 "40 soldering kits waiting to be assembled by someone tomorrow. 15 different ones to try. There are even some SMD kits!"
+![](/blogimg/soldering_kits500.jpg)    
+"40 soldering kits waiting to be assembled by someone tomorrow. 15 different ones to try. There are even some SMD kits!"
 
 
 #Introductions
@@ -76,7 +78,8 @@ Console modder, internet celebrity, pinball enthusiast and designer, host of the
 **Eric Stein**
 Programmer extraordinaire and insatiable hacker. Eric discovered the hackerspace PumpingStationOne when he was transplanted to Chicago. He immediately took an active role in the community and is now president of the space.
 
-![](/blogimg/learn_soldering_tools500.jpg) 500 375 "Tools enough for 5 people at a time"
+![](/blogimg/learn_soldering_tools500.jpg)     
+"Tools enough for 5 people at a time"
 
 ## The Organizers
 

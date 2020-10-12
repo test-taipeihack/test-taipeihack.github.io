@@ -11,7 +11,8 @@ The Taipei Hackerspace project was in the back of my mind for years now, not rea
 In the last few monthts I have already got a log of interesting contact from people around the world - travellers coming to Taiwan, people moving here, and looking for a place to create. I can't think of a better time doing that than now, and Taiwan has its unique properties that would make it a very hacker-friendly country.
 
 
-![](/blogimg/bGeigi500o.jpg)  "Preliminary Taipei Hackerspace Logo"
+![](/blogimg/bGeigi500o.jpg)    
+"Preliminary Taipei Hackerspace Logo"
 
 
 In the meantime, I just set up this blog to put a bit more pressure on me to get things going. Got together a silly logo already (with [SVG source][logosvg]).
