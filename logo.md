@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: no-page
 title: logo
 tagline: 
 permalink: /logo.html

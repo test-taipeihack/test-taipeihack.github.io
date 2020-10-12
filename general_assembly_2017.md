@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: no-page
 title: Constitution
 tagline: 
 permalink: /general_assembly_2017.html
