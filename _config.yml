@@ -1,5 +1,5 @@
-title: Welcome to the Taipei Hackerspace
-description: The Taipei Hackerspace is an open and public workshop to do any kind of DIY projects, from electronics to 3D printing, from urban farming to clothes hacking.
+title: Taipei Hackerspace
+description: ""
 show_downloads: true
 
 baseurl: "" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
@@ -27,4 +27,4 @@ plugins:
 target-blank:
     rel: nofollow
 
-header_page_refs: ['hs-en','hs-cn', 'about', 'contact']
+header_page_refs: ['hs-en','hs-cn']
