@@ -17,7 +17,7 @@ theme: # leave it empty
 
 # social
 author: Taipei Hackerspace
-image: /thumbnail-jumbo.png
+image: /logo/jpg/hackerspace500.jpg
 twitter:
   username: "taipeihack"
 
@@ -25,7 +25,7 @@ plugins:
   - jekyll-target-blank
   - jekyll-feed
   - jekyll-seo-tag
-
+  - jekyll-sitemap
 target-blank:
     rel: nofollow
 
