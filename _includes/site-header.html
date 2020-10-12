@@ -3,6 +3,11 @@
   <div class="wrapper">
     {% assign default_refs = site.pages | sort:"order" | map: "ref" %}
     {% assign page_refs = site.header_page_refs | default: default_refs %}
+    
+    <!-- 首頁左上角的 Taipei Hackerspace -->
+    {% if page.layout == 'home' %}
+    <a class="site-title" href="{{ "/" | absolute_url }}">{{ site.title | escape }}</a>
+    {% endif %}
 
     {% if page.layout != 'home' %}
       <a class="site-title" href="{{ "/" | absolute_url }}">{{ site.title | escape }}</a>

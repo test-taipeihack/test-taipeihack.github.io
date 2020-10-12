@@ -18,9 +18,8 @@ theme: # leave it empty
 # social
 author: Taipei Hackerspace
 image: /logo/jpg/hackerspace500.jpg
-twitter:
-  username: "taipeihack"
-
+# twitter:
+#   username: "taipeihack"
 plugins:
   - jekyll-target-blank
   - jekyll-feed
