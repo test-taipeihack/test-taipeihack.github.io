@@ -44,5 +44,3 @@ Article 14 The function and responsibilities of the General Members Assembly are
 8. Determine important issues relevant to the rights and obligations of members of the Board of Directors.
 
 [Full (official) text of the charter](https://docs.google.com/document/d/1hdHqjdwiPoz123rzYUCxZWWQs8uRahNLNw3jM8-zKdQ/).
-
-![](/logo/png/hackerspace500.png)
